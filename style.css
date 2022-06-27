@@ -361,7 +361,7 @@ FORM
   
 }
 
-@media (max-width: 630px) {
+@media (max-width: 850px) {
   .hero .container{
     flex-direction: column;
     text-align: center;
@@ -370,10 +370,11 @@ FORM
 
   .hero .container img {
     padding-bottom: 40px;
+    order: -1
   }
 
-  .hero .container img {
-    order: -1
+  .form-group {
+    display: block;
   }
 }
 
@@ -422,7 +423,7 @@ FORM
 
   .menu-section.on .menu-toggle {
     position: absolute;
-    right: 0;
+    right: 45px;
     top: 15px;
   }  
 
@@ -448,5 +449,11 @@ FORM
     font-size: 3.2rem;
     line-height: 4rem;
     display: block;
+  }
+
+  @media (max-width: 320px) {
+    #form h3 {
+      font-size: 2rem;
+    }
   }
 }
