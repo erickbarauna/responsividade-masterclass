@@ -1,4 +1,4 @@
-<h1>Site responsivo com CSS e JS</h1>
+<h1>Site Responsivo</h1>
 
 <img height="500px" src="https://user-images.githubusercontent.com/98670029/177557451-88af83bc-4b9b-4ae5-8a80-9bbe8d5ba9e3.png"></img>
 
